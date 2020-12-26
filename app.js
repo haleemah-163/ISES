@@ -18,11 +18,13 @@ while( name1 === '' || name1 === null){
 }
 
 
-document.write( '< img src="https://financialtribune.com/sites/default/files/field/image/17january/05_china_280-ed.jpg" >') ;
 
 
- // var energy = prompt ('how would you agree with renewable energy, from 1-10');
-//while (energy > 7 ) {
+  var e = prompt ('how would you agree with renewable energy, from 1-10');
+  for ( var i = e  ; i > 0  ; i-- ){
+
+    document.write('<img src="https://tse1.mm.bing.net/th?id=OIP.FcD-uQYYUPrbVjYZ3ufOYAHaHH&pid=Api&P=0&w=167&h=162">');
+  }
+  
+  
     
-//}
-//document.write()
