@@ -13,9 +13,7 @@ if (age<20) {
 // here is my first editing for my dynamic web page to add  lab8
 
 var name1 = prompt ('now  your name sweetie');
-while( name1 === '' || name1 === null){ 
-    name1 = prompt ('oops it seems you forgot to enter your name or what?');
-}
+valid(name1);
 
 // here; i just want to try if i can save from file and yes i could
 
@@ -25,6 +23,16 @@ while( name1 === '' || name1 === null){
 
     document.write('<img src="https://tse1.mm.bing.net/th?id=OIP.FcD-uQYYUPrbVjYZ3ufOYAHaHH&pid=Api&P=0&w=167&h=162">');
   }
+// now here is my first time creating function and will be called above 
+  function valid ( name1 ) {
+    while ( name1 === '' || name1 === null)
+     { name1 = prompt ('oops it seems you forgot to enter your name or what?');}
+      return name1;
+    }
+
+  
+
+  
   
   
     
