@@ -17,7 +17,7 @@ while( name1 === '' || name1 === null){
     name1 = prompt ('oops it seems you forgot to enter your name or what?');
 }
 
-
+// here; i just want to try if i can save from file and yes i could
 
 
   var e = prompt ('how would you agree with renewable energy, from 1-10');
